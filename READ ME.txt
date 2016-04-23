@@ -1,0 +1,28 @@
+MEMBERS -- BSICT 2B -- OOP PROJECT
+Joseph Paragile
+Janine Alexis Morga
+Blesha Canda
+
+--------------------------------------------------
+
+Log In as User (Valid Accounts)
+
+Username: Janine
+Password: morga123
+
+Username: Joseph
+Password: paragile123
+
+Username: Blesha
+Password: canda123
+
+
+-------------------------------------------------
+
+Log In as Admin (ONLY one valid account)
+
+Username: admin
+Password: admin123password
+
+
+

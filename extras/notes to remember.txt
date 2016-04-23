@@ -1,0 +1,54 @@
+LOG IN
+
+Janine
+morga123
+
+Blesha
+canda123
+
+Joseph
+paragile123
+
+Junalyn
+cutar123
+
+Francis
+hayag123
+
+Freddie
+axlmarley
+
+------
+
+PAGES
+
+--index--starter of the page--wa pa ka log-in ang user
+--home--everything is accessible here--naka log-in na ang user
+
+-----
+
+for opacity on background container
+.this {
+    width: 30%;    
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border: 3px solid #999;
+    -webkit-box-shadow: 2px 1px 6px 2px #000000;
+    box-shadow: 2px 1px 6px 2px #000000; 
+    background:rgba(0,0,0,0.6);
+}
+
+------
+for gender
+<!-- ****GENDER FIELD -->
+                <div class="form-group">
+                    <select>
+                        <option value="">Select your Gender</option>
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                    </select>           
+                <br>

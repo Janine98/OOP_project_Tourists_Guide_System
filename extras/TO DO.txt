@@ -1,0 +1,55 @@
+CUSTOMER'S TABLE
+
+Log In
+--Username
+--Password
+
+
+Sign Up
+--Name
+--Birthday
+--Gender
+--Address
+--Religion
+--Country
+--Nationality
+--Email Address
+--Contact no.
+
+
+
+-----
+
+Log In as Admin
+
+-----
+
+Navigation
+
+*HOME
+-----Contains the carousel.
+
+*ABOUT
+-----Short description of the page.
+
+*FIND A GUIDE
+-----Contains the list of tour guides available
+
+*FIND A TOUR
+-----Contains the list of tour schedules available
+
+
+-----------------------------------------------------
+PROBLEMS
+
+1. Make background-image fixed.
+2. Toggle doesn't work!
+
+
+
+image background
+1386 x 712
+
+----
+to get age from birthdate column
+SELECT * FROM your_table WHERE YEAR(CURDATE())-YEAR(BirthDate) BETWEEN 10 AND 20;

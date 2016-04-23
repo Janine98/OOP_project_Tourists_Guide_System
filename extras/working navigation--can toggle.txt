@@ -1,0 +1,104 @@
+PHP
+----------------
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-------------------------------------NAVIGATION--------------------------------->
+    <div class="container">
+    <nav class="navbar" role="navigation">
+        
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--NOTE: The icon bar became red because of 'css override' with the use of '!important'. See line 58 in mystyle.css-->
+                
+                <a class="navbar-brand" href="#">
+                    <font class="name">Navigation ???      </font>
+                </a>
+                
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.php"><font class="one">??Home  </font></a>
+                    </li>
+                    <li>
+                        <a href="aboutme.php" class="topbottom"><font class="two">??About   </font></a>
+                    </li>
+                    <li>
+                        <a href="squad.php" class="topbottom"><font class="five">?????Squad  </font></a>
+                    </li>
+                    <li>
+                        <a href="favorites.php" class="topbottom"><font class="three">??Current Favorite  </font></a>
+                    </li>
+                    <li>
+                        <a href="connect.php" class="topbottom"><font class="four">??Connect   </font></a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+   
+    </nav>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+
+</html>
+
+
+
+-----------------------------
+CSS
+-------------------------------
+font.name {
+    font-family: bebas neus;
+    color: crimson;
+    font-size: 50px;
+}
+
+font.one {
+    font-family: bebas neus;
+    color: deepskyblue;
+    font-size: 30px;
+    }
+
+font.two {
+    font-family: bebas neus;
+    color: darkseagreenbebas neus;
+    font-size: 30px;
+    }
+
+font.three {
+    font-family: bebas neus;
+    color: darksalmon;
+    font-size: 30px;
+    }
+
+font.four {
+    font-family: bebas neus;
+    color: darkorange;
+    font-size: 30px;
+    }
+font.five {
+    font-family: bebas neus;
+    color: darkviolet;
+    font-size: 30px;
+    }
+
+
+
+span.icon-bar {
+   background-color: crimson       !important;
+}

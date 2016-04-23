@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mystyle.css" rel="stylesheet">
+</head>
+<body>
+    <!--CAROUSEL/IMAGE SLIDER-->
+    <div id="myCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+         </ol>
+            <div class="carousel-inner">
+                
+                <div class="item active">
+                    <img src="images/try.jpg" alt="Cebu" class="img-responsive">
+                        <div class="carousel-caption">
+                            <h3>Got the desire to explore the Queen City of the South?</h3>
+                        </div>
+                </div>
+                
+                <div class="item">
+                    <img src="images/a1.jpg" alt="Cebu" class="img-responsive">
+                </div>
+                
+                <div class="item">
+                    <img src="images/a2.jpg" alt="Cebu" class="img-responsive"> 
+                </div>
+                
+                <div class="item">
+                    <img src="images/a3.jpg" alt="Cebu" class="img-responsive"> 
+                </div>
+                
+                <div class="item">
+                    <img src="images/a4.jpg" alt="Cebu" class="img-responsive"> 
+                </div>
+                
+                
+            </div>
+        
+        <!--
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+-->
+       
+    </div>
+    
+    <!--end of Carousel-->
+    
+    
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    
+</body>
+</html>
